@@ -1,0 +1,17 @@
+{
+  "name": "nuxt-todo-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "json-server --watch db.json --port 5000"
+  },
+  "dependencies": {
+    "json-server": "^0.17.4"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.3"
+  },
+  "private": true
+}
